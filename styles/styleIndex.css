@@ -1,0 +1,90 @@
+/*estilos index*/
+
+.body_cls{
+    background-color: #2A363B ;
+}
+.main_cls{
+   
+    display: inline-block;
+    margin-left: 9%;
+    margin-top: 50px;
+    width: 60%;
+}
+.maintablas_cls{
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-top: 50px;
+    width: 60%;
+}
+
+.titulos_cls{
+   
+    text-align: center;
+    background: linear-gradient(#99B898 , #FECEAB, #FF847C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'fantasy';
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 30px;
+        
+}
+p{
+    font-family: "Times New Roman";
+    font-size: 25px;
+    text-align: justify;
+    color: lightsteelblue;
+}
+
+.lateral_cls{
+  
+    display: inline-block;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    height: 1200px;
+    float: right;
+    border-left: groove;
+    border-width: 1px;
+    background: linear-gradient(#99B898 , #FECEAB, #FF847C);
+    box-shadow: 0 0 10px #FF847C;
+}
+
+.lateral_cls ul{
+    list-style: none;
+    margin-left: 33px;
+    margin-right: 33px;
+      
+}   
+
+.enlacesAnexos{
+    color: cadetblue;
+    display: block;
+    font-family: "Segoe UI Semibold";
+    font-size: 20px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+   
+}
+.enlacesAnexos:hover{
+    font-size:20px;
+    color: white; 
+}
+
+
+#tituloAnexo{
+    text-align: center;
+    background: linear-gradient(#833ab4 , #fd1d1d, #fcb045);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'fantasy';
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 30px;
+}

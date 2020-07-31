@@ -1,0 +1,37 @@
+/*tablas*/
+
+.tabla_cls{
+        font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+        font-size: 20px;
+        margin-left: initial;
+        margin-top: 50px;
+        font-family: 'fantasy';
+        width: 100%; 
+        border-collapse: collapse; 
+        box-shadow: 0 0 10px #FF847C;
+        
+}
+.tabla_cls td{
+       font-size: 20px;
+       font-weight: normal;
+       padding: 5px; 
+        background: white;
+        border-top: 4px solid #FF847C; 
+        border-bottom: 1px solid #FF847C;
+        color: cadetblue;; 
+        text-align: center;
+}
+
+.tabla_cls th{
+        padding: 8px;
+        background: linear-gradient(#99B898 , #FECEAB, #FF847C);
+        border-bottom: 3px solid #fff;
+        color: white;
+        border-top: 3px solid transparent; 
+        text-align: center;
+        font-size: 25px;
+    }
+
+.tabla_cls tr:hover td { 
+    background: linear-gradient(#f5d29c , #75ab82);
+    color: #339; }

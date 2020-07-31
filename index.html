@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduccion a HTML 5   </title>
-    
+    <link rel="stylesheet" href="styles/Encabezado.css">
+    <link rel="stylesheet" href="styles/styleIndex.css">
+    <link rel="stylesheet" href="styles/tablas.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
-<body>
-    <header>
+<body class="body_cls">
+    <header class="header_cls">
         <img src="imagenes/html.png" alt="imagen html" width="120" height="120">
+        <div class="titulos">
         <h1> DESARROLLO WEB </h1>
-        <h2> Introduccion a HTML 5 </h2>
+        <h2> HTML5 Y CSS</h2>
+        </div>
 
-        <nav>
-            <ul>
-                <li> <a href="index.html" target="_blank" >Inicio </a></li>
-                <li> <a href="Elementos.html" target="_blank" >Elementos </a></li>
-                <li> <a href="Atributos.html" target="_blank" >Atributos </a></li>
+        <nav class="menu_cls ">
+            <ul class="menu.cls">
+                <li> <a class="menu.cls" href="index.html" target="_blank" >Inicio </a></li>
+                <li> <a class="menu.cls" href="Elementos.html" target="_blank" >Elementos </a></li>
+                <li> <a class="menu.cls"  href="Atributos.html" target="_blank" >Atributos </a></li>
+                <li> <a class="menu.cls"  href="Tablas.html" target="_blank" >Tablas CSS </a></li>
             </ul>
         </nav>
     </header>
    
-    <main>
+    <main class="main_cls">
        <section>
             <article>
-                <h2> Definición de HTML 5 </h2>
-                    <p>
+                <h2 class="titulos_cls"> Definición de HTML 5 </h2>
+                    <p >
                         Es la combinación de Lenguaje de Marcado e Hipertexto para construir sitos we :
                         El lenguaje de marcado se utiliza para definir la estructura de las paginas web.
                         El Hipertexto define el enlace entre las paginas web.
@@ -35,24 +41,26 @@
             </article>
 
             <article>
-                <h2> Aplicaciones </h2>
-                    <p>
+                <h2 class="titulos_cls"> Aplicaciones </h2>
+                    <p >
                         Páginas web multimedia: gracias a etiquetas como video y audio podemos añadir videos o audio. Ya no es necesario utilizar Adobe Flash o cualquier otro complemento (plugin). La diferencia es que ahora, 
                         con el HTML5, el tamaño del archivo final de tu página es más reducido, ya que todo ocurre desde el navegador.
                             <br>
                             <br>
-                            <b>Geolocalización:</b> algunas de las ventajas del HTML es que te permite ofrecer al usuario el contenido de tu sitio web en su idioma basándote en su ubicación o mostrarle un sitio web u otro según cuál sea su origen.
-                            <br>     
-                            <b>Animaciones:</b> la etiqueta canvas es la responsable de que puedas crear animaciones en 2D. Mediante una interfaz de programación de aplicaciones (API) puedes dibujar elementos en 2D y animarlos.
+                            <b><ins>Geolocalización:</ins></b> algunas de las ventajas del HTML es que te permite ofrecer al usuario el contenido de tu sitio web en su idioma basándote en su ubicación o mostrarle un sitio web u otro según cuál sea su origen.
                             <br>
-                           <b>Aplicaciones web:</b>  el HTML5 te permite desarrollar aplicaciones web accesibles para ordenador, tableta o móvil, así como acceder a la aplicación web con un simple URL. Esto contrasta con la aplicación móvil, puesto que no ofrece esta accesibilidad.
+                            <br>     
+                            <b><ins>Animaciones:</ins></b> la etiqueta canvas es la responsable de que puedas crear animaciones en 2D. Mediante una interfaz de programación de aplicaciones (API) puedes dibujar elementos en 2D y animarlos.
+                            <br>
+                            <br>
+                           <b><ins>web:</ins></b>  el HTML5 te permite desarrollar aplicaciones web accesibles para ordenador, tableta o móvil, así como acceder a la aplicación web con un simple URL. Esto contrasta con la aplicación móvil, puesto que no ofrece esta accesibilidad.
                     
                     </p>
             </article>
 
             <article>
-                <h2> Versiones </h2>
-                    <table border="1" >
+                <h2 class="titulos_cls"> Versiones </h2>
+                    <table border="1" class="tabla_cls" >
                         <tr>
                             <th width="200" height="20">Versiones</th>
                             <th width="400" height="20">Origen</th>
@@ -81,23 +89,23 @@
         </section>
     </main>
 
-    <aside>
-        <h2> ANEXOS: </h2>
-        <ol>
-            <li> <a href="https://www.arkaitzgarro.com/html5/capitulo-1.html">Tema 1:</a> </li>
-            <li> <a href="https://openwebinars.net/blog/que-es-html5/">Tema 2:</a> </li>
-            <li> <a href="https://fp.uoc.fje.edu/blog/que-es-htlm-ventajas-y-principales-usos/">Tema 3:</a> </li>
-            <li> <a href="https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=444:icuales-son-las-versiones-de-html-diferencias-entre-html-4-y-html-5-significado-de-strict-cu00706b&catid=69&Itemid=192">Tema 4:</a> </li> 
-            <li> <a href="https://aprende-web.net/NT/html5/html5_1.php">Tema 5:</a> </li>
-        </ol>   
+    <aside class="lateral_cls">
+        <h2 id="tituloAnexo"> ANEXOS: </h2>
+        <ul class="anexos_cls">
+            <li> <a class="enlacesAnexos" href="https://www.arkaitzgarro.com/html5/capitulo-1.html">Definicion HTML5:</a> </li>
+            <li> <a class="enlacesAnexos"  href="https://openwebinars.net/blog/que-es-html5/">Funcionamiento HTML5:</a> </li>
+            <li> <a class="enlacesAnexos"  href="https://fp.uoc.fje.edu/blog/que-es-htlm-ventajas-y-principales-usos/">ventajas y principales usos:</a> </li>
+            <li> <a class="enlacesAnexos"   href="https://www.w3schools.com/css/">Introduccion CSS:</a> </li> 
+            <li> <a class="enlacesAnexos"  href="https://www.youtube.com/watch?v=JLlgQsvrRj4">Novedades CCS:</a> </li>
+        </ul>   
     </aside>
     <section>
 
         <br>
         <br>
-    <hr>
+    
       
-    <footer>   © MarcoGB 2020  WEB-DEVELOPMENT</footer>
+    <footer id="footer">   © MarcoGB 2020  Derechos Reservados</footer>
 </body>
 </html>
 
